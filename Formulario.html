@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1> <img src="imagens/formulario-de-contato.png" width="50" alt="40">Esse é um teste de Formulario </h1>
+
+    <form> 
+        <!--LEGENDA PARA NOME-->
+
+        <label for="camponome">Nome:</label>
+        <input id="camponome" type="text"placeholder="Digite seu nome Aqui"required>
+
+        <br><br>
+
+        <!--LEGENDA PARA NOME-->
+
+        <label for="campoidade">Idade:</label>
+        <input id="campoidade" type="text"placeholder="Digite sua idade Aqui"required>
+
+        <br><br>
+
+        <!--CAMPO INPUT DO TYPE EMAIL-->
+
+        <label for="campoemail">Email:</label>
+        <input id="campoemail" type="email"placeholder="Digite seu Email Aqui"required>
+
+        <br><br>
+
+        <!--CAMPO INPUT DO TYPE SENHA-->
+
+        <label for="camposenha">Senha:</label>
+        <input id="camposenha" type="password"placeholder="Digite sua senha Aqui"required>
+
+        <br><br>
+
+        <h1>Animais de estimação</h1>
+
+        <!--CAMPO INPUT DO TYPE RADIO-->
+
+        <input type="radio" id="cat"
+        name="animais" value="Gato">
+        <label for="cat">Gato</label>
+
+        <br><br>
+
+        <!--CAMPO INPUT DO TYPE RADIO-->
+
+        <input type="radio" id="dog"
+        name="animais" value="Cachorro">
+        <label for="Cachorro">Cachorro</label>
+    
+        <br><br>
+
+        <!--CAMPO INPUT DO TYPE RADIO-->
+
+        <input type="radio" id="bird"
+        name="animais" value="Papagaio">
+        <label for="Papagaio">Papagaio</label>
+    
+        <br><br>
+
+        <!--CAMPO INPUT DO TYPE RADIO-->
+
+        <input type="radio" id="Hamster"
+        name="animais" value="Hamster">
+        <label for="Hamster">Hamster</label>
+    
+        <br><br>
+    
+        <!--CAMPO INPUT DO TYPE CHECKBOX-->
+        <h2>O que você tem em Casa ?</h2> 
+
+        <input type="checkbox" id="tv" name="item1" value="Televisão">
+        <label for="tv">Televisão</label>
+
+        <br><br>
+
+        <!--CAMPO INPUT DO TYPE CHECKBOX-->
+        
+        <input type="checkbox" id="ventilador" name="item2" value="ventilador">
+        <label for="ventilador">ventilador</label>
+
+        <br><br>
+
+        <!--CAMPO INPUT DO TYPE CHECKBOX-->
+
+        <input type="checkbox" id="sofá" name="item3" value="Sofá">
+        <label for="sofá">Sofá</label>
+
+        <br><br>
+
+        <!--CAMPO INPUT DO TYPE CHECKBOX-->
+
+        <input type="checkbox" id="Computador" name="item4" value="Computador">
+        <label for="Computador">Computador</label>
+
+        <br><br>
+
+        <!--CAMPO INPUT DO TYPE CHECKBOX-->
+        
+        <input type="checkbox" id="Geladeira" name="item5" value="Geladeira">
+        <label for="Geladeira">Geladeira</label>
+
+        <br><br>
+    
+        <h2>Escolha uma cor:</h2> 
+
+        <!--CAMPO SELECT PARA MARCAÇÂO-->
+
+        <select>
+
+        <option value="Selecione uma cor" selected disabled >Selecione uma cor</option>
+        <option value="vermelho">Vermelho</option>  
+        <option value="azul">Azul</option>  
+        <option value="verde">Verde</option>  
+        <option value="amarelo">Amarelo</option>  
+        <option value="laranja">Laranja</option>  
+        <option value="roxo">Roxo</option>  
+        
+        </select>
+
+        <br><br><br>
+        <h2>Digite sua mensagem</h2>
+
+        <textarea name="Mensagem" placeholder="Digite sua mensagem aqui" rows="15"cols="40"></textarea>
+        <br><br><br><br>
+
+    <!--CAMPO INPUT DO TYPE SUBMIT-->
+
+    <input type="submit" value="Enviar formulario"required>
+
+    </form>
+    <br><br>
+    <a href="index.html">Página inicial</a>   
+
+    <br><br><br><br><br><br><br><br><br><br> 
+</body>
+</html>
